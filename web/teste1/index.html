@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script type="text/javascript" src="Chart.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <!--<script type="text/javascript" src="parser.js"></script>-->
+        <!--<meta charset="utf-8">-->
+    </head>
+    <body>
+        <canvas id="canvas" height="400" width="400"></canvas>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Tipo da serie historica:</legend>
+                <input type="radio" name="tipoSerie" id="acumulado">Acumulado ao ano
+                <input type="radio" name="tipoSerie" checked="">Porcentagem mensal
+            </fieldset>
+            <fieldset>
+                <legend>Frequencia da atualizacao:</legend>
+                <input type="radio" name="tipoFrequencia" checked="">lenta
+                <!--<input type="radio" name="tipoFrequencia" id="media">media-->
+                <input type="radio" name="tipoFrequencia" id="alta">alta
+                <!--<input type="radio" name="tipoFrequencia">altissima-->
+            </fieldset>
+            <fieldset>
+                <legend>Largura da janela:</legend>
+                <input type="radio" name="tipoLargura" checked="">pequena
+                <!--<input type="radio" name="tipoLargura">media-->
+                <input type="radio" name="tipoLargura" id="grande">grande
+            </fieldset>
+
+        </form>
+    </body>
+</html>

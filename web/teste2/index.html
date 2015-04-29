@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Índice Nacional de Preços ao Consumidor Amplo</title>
+        <script type="text/javascript" src="Chart.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas" height="400" width="400"></canvas>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Tipo da serie historica:</legend>
+                <input type="radio" name="tipoSerie" id="acumulado">Acumulado ao ano
+                <input type="radio" name="tipoSerie" checked="">Porcentagem mensal
+            </fieldset>
+            <fieldset>
+                <legend>Frequencia da atualizacao:</legend>
+                <input type="text">milissegundos
+            </fieldset>
+            <fieldset>
+                <legend>Largura da janela:</legend>
+                <input type="text">pixels
+            </fieldset>
+
+        </form>
+    </body>
+</html>
