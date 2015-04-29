@@ -59,7 +59,7 @@
 			animation: true,
 
 			// Number - Number of animation steps
-			animationSteps: 60,
+			animationSteps: 120,
 
 			// String - Animation easing effect
 			animationEasing: "easeOutQuart",
